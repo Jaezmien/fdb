@@ -19,7 +19,7 @@ import fdb from "fdb";
 const fdb = require('fdb')
 ```
 ```ts
-const db = new fdb(/* path to config */)
+const db = fdb(/* path to config */)
 
 await db.set('key', 'value')
 
