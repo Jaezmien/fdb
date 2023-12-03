@@ -1,0 +1,13 @@
+{
+	"env": {
+		"node": true
+	},
+	"extends": ["eslint:recommended", "eslint-config-unjs"],
+	"rules": {
+		"indent": ["error", "tab"],
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "single"],
+		"semi": ["error", "never"],
+		"no-tabs": 0
+	}
+}
